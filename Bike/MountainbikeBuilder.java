@@ -10,6 +10,7 @@ public class MountainbikeBuilder implements AbstractBikeBuilder {
 	AbstractTire buildTire();
 	AbstractFrame buildFrame();
 	private AbstractGearShift buildGearShift(int gearNumber) {
+		AbstractGearShift mtbGear = new MountainbikeGear(gearNumber);
 	}
 
 
