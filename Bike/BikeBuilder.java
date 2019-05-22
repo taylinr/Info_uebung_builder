@@ -5,6 +5,4 @@ public interface BikeBuilder {
 	AbstractTire buildTire();
 	AbstractFrame buildFrame();
 	AbstractGearShift buildGearShift();
-	
-
 }

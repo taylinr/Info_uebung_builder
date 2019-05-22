@@ -2,6 +2,6 @@ package Bike;
 
 public abstract class AbstractGearShift {
 	
-	xxx
+	private int gearNumber;
 
 }

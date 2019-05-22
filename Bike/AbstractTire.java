@@ -1,5 +1,8 @@
 package Bike;
 
-public class AbstractTire {
+public abstract class AbstractTire {
+	
+	private int width;
+	private int size;
 
 }

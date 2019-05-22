@@ -1,5 +1,5 @@
 package Bike;
 
-public interface MountainbikeBuilder {
+public class MountainbikeBuilder {
 
 }
