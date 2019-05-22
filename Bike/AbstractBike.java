@@ -5,4 +5,10 @@ public abstract class AbstractBike {
 	private AbstractTire tire;
 	private AbstractGearShift gear;
 	
+	public AbstractBike(AbstractFrame frame, AbstractTire tire, AbstractGearShift gear) {
+		this.frame = frame;
+		this.tire = tire;
+		this.gear = gear;
+	}
+	
 }

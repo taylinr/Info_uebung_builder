@@ -1,8 +1,8 @@
 package Bike;
 
-public class RacerBuilder {
-	private AbstractFrame frame;
-	private AbstractTire tire;
-	private AbstractGearShift gear;
-
+public class RacerBuilder implements AbstractBikeBuilder {
+	AbstractBike buildBike();
+	AbstractTire buildTire();
+	AbstractFrame buildFrame();
+	AbstractGearShift buildGearShift();
 }

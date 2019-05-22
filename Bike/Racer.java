@@ -1,9 +1,8 @@
 package Bike;
 
-public class Racer extends AbstractBike {
-	private AbstractFrame frame;
-	private AbstractTire tire;
-	private AbstractGearShift gear;
-	
+public class Racer extends AbstractBike {	
+	public Racer(AbstractFrame frame, AbstractTire tire, AbstractGearShift gear) {
+		super(frame, tire, gear);
+	}
 
 }
