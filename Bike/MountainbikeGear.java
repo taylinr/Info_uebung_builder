@@ -1,5 +1,8 @@
 package Bike;
 
-public class MountainbikeGear {
-
+public class MountainbikeGear extends AbstractGearShift{
+	
+	public MountainbikeGear(int gearNumber) {
+		super(gearNumber);
+	}
 }
