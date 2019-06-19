@@ -1,8 +1,5 @@
 package Bike;
 
 public interface BikeBuilder {
-	AbstractBike buildBike();
-	AbstractTire buildTire();
-	AbstractFrame buildFrame();
-	AbstractGearShift buildGearShift();
+	AbstractBike buildBike(int tiresize, int tirewidth, int frameweight, String framecolor, int gearNumber);
 }

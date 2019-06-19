@@ -1,0 +1,15 @@
+/AbstractBike.class
+/AbstractFrame.class
+/AbstractGearShift.class
+/AbstractTire.class
+/BikeBuilder.class
+/Mountainbike.class
+/MountainbikeBuilder.class
+/MountainbikeFrame.class
+/MountainbikeGear.class
+/MountainbikeTire.class
+/Racer.class
+/RacerBuilder.class
+/RacerFrame.class
+/RacerGear.class
+/RacerTire.class
